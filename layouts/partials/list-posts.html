@@ -1,0 +1,4 @@
+<article class="post-title">
+    <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+    <i><span class="post-date">{{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}</span></i>
+</article>
