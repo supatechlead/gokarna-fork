@@ -1,6 +1,4 @@
 <article class="post-title">
     <span style="display: inline-block;"><h3><a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a></h3></span>
-    <span class="level-2">{{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}</span>
+    <span style="color: #808080; font-weight: 300;">{{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}</span>
 </article>
- 
-
