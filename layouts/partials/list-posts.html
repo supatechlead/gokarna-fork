@@ -4,7 +4,8 @@
 		    <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
     </h3>
     <i>
-        <span class="post-date">
+        <!--<span class="post-date">-->
+        <span>
             {{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}
         </span>
     </i>
